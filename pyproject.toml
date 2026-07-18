@@ -1,0 +1,13 @@
+[project]
+name = "comfyui-rebels-krea2-outpaint"
+description = "Registered outpainting nodes for the yijunwang2/krea2-outpaint LoRA on Krea 2 Turbo. Places the source reference into the target latent grid at a bbox (RoPE frame i+1) with isolated-ref KV cache, then restores exact pixels with a feathered seam. Reference-attention machinery adapted from ostris/ComfyUI-Krea2-Ostris-Edit (MIT); placement geometry from the outpaint release (Apache-2.0)."
+version = "1.0.0"
+license = { file = "LICENSE" }
+dependencies = []
+
+[project.urls]
+Repository = "https://github.com/RealRebelAI/ComfyUI-Rebels-Krea2-Outpaint"
+
+[tool.comfy]
+PublisherId = "realrebelai"
+DisplayName = "Rebels Krea2 Outpaint"

@@ -1,0 +1,20 @@
+ComfyUI-Rebels-Krea2-Outpaint
+Copyright (c) 2026 RealRebelAI
+
+This product includes software adapted from third parties:
+
+1. Reference-attention machinery in krea2_registered_core.py is adapted from
+   ostris/ComfyUI-Krea2-Ostris-Edit
+   (MIT License, Copyright (c) 2026 Ostris, LLC).
+   https://github.com/ostris/ComfyUI-Krea2-Ostris-Edit
+
+2. Canvas/bbox/seam geometry in outpaint_helpers.py is vendored from the
+   yijunwang2/krea2-outpaint release's outpaint.py, and the registered
+   placement formula in krea2_registered_core.py reproduces the behavior of
+   _pack_reference_latents in that release's pipeline.py
+   (Apache License 2.0; portions Copyright (c) 2026 Ostris, LLC and
+   Copyright (c) 2026 Krea AI and The HuggingFace Team).
+   https://huggingface.co/yijunwang2/krea2-outpaint
+
+The krea2-outpaint LoRA weights are distributed under the Krea 2 Community
+License and are not included in this repository.

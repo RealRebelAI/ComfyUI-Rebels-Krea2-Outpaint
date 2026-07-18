@@ -1,5 +1,9 @@
 # ComfyUI-Rebels-Krea2-Outpaint
 
+<img width="1024" height="1536" alt="krea2_outpaint_00006_" src="https://github.com/user-attachments/assets/4e198ecf-7ec5-4ad5-bff5-4a41848f7fa2" />
+<img width="1024" height="1024" alt="ident_test__00011_" src="https://github.com/user-attachments/assets/57373d2c-323b-4ce4-b001-8fba982c4d67" />
+
+
 Registered outpainting for the **yijunwang2/krea2-outpaint** LoRA on **Krea 2 Turbo**, in ComfyUI.
 
 This is a native ComfyUI port of that LoRA's diffusers pipeline. The LoRA is not a plain edit LoRA: the source image is registered into the *target* canvas grid at an explicit bounding box, so the model knows where the known pixels belong. This pack does exactly that registration and nothing else exotic — the known region is carried only by the reference, and the exact source pixels are restored at the end with a feathered seam.

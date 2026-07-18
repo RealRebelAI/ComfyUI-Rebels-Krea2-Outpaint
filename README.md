@@ -13,6 +13,7 @@ The reference-attention machinery (t=0 reference modulation, isolated-ref K/V pr
 - A ComfyUI build with native Krea 2 support (or your GGUF Krea 2 fork — see caveat below).
 - Krea 2 **Turbo** diffusion model + the Krea 2 VAE + the Krea 2 Qwen3-VL CLIP.
 - The LoRA weights `krea2_outpaint_rank32.safetensors` in `models/loras`.
+- https://huggingface.co/yijunwang2/krea2-outpaint/blob/main/krea2_outpaint_rank32.safetensors
 - No extra Python dependencies.
 
 Install:

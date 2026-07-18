@@ -1,8 +1,7 @@
 # ComfyUI-Rebels-Krea2-Outpaint
 
-<img width="1024" height="1536" alt="krea2_outpaint_00006_" src="https://github.com/user-attachments/assets/4e198ecf-7ec5-4ad5-bff5-4a41848f7fa2" />
-<img width="1024" height="1024" alt="ident_test__00011_" src="https://github.com/user-attachments/assets/57373d2c-323b-4ce4-b001-8fba982c4d67" />
 
+<img width="49%" alt="ident_test__00011_" src="https://github.com/user-attachments/assets/57373d2c-323b-4ce4-b001-8fba982c4d67" /> <img width="49%" alt="krea2_outpaint_00006_" src="https://github.com/user-attachments/assets/4e198ecf-7ec5-4ad5-bff5-4a41848f7fa2" />
 
 Registered outpainting for the **yijunwang2/krea2-outpaint** LoRA on **Krea 2 Turbo**, in ComfyUI.
 

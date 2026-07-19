@@ -5,7 +5,7 @@
 
 Registered outpainting for the **yijunwang2/krea2-outpaint** LoRA on **Krea 2 Turbo**, in ComfyUI.
 
-This is a native ComfyUI port of that LoRA's diffusers pipeline. The LoRA is not a plain edit LoRA: the source image is registered into the *target* canvas grid at an explicit bounding box, so the model knows where the known pixels belong. This pack does exactly that registration and nothing else exotic — the known region is carried only by the reference, and the exact source pixels are restored at the end with a feathered seam.
+This is a ComfyUI port of that LoRA's diffusers pipeline. The LoRA is not a plain edit LoRA: the source image is registered into the *target* canvas grid at an explicit bounding box, so the model knows where the known pixels belong. This pack does exactly that registration and nothing else exotic — the known region is carried only by the reference, and the exact source pixels are restored at the end with a feathered seam.
 
 ## What it is under the hood
 
